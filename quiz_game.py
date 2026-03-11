@@ -5,8 +5,8 @@ print("Welcome to the Quiz!")
 print("\n********************\n")
 
 score = 0
-start_time = time.time()        # Record start time
-time_limit = 120               # 2 minutes in seconds
+start_time = time.time()        
+time_limit = 120               
 
 def check_time():
     """End quiz if 2 minutes have passed."""
